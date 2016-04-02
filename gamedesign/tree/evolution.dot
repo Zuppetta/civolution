@@ -1,0 +1,56 @@
+digraph A {
+
+  subgraph cluster_level1 {
+    label="Level 1";
+    "Matiere Constituante"->Carbon;
+    "Matiere Constituante"->Iron;
+    "Matiere Constituante"->Azote;
+
+    Nutrition->Thermal;
+    Nutrition->Photosynthese;
+
+    Reproduction->Sexuelle->Gestation;
+    Sexuelle->Oeufs;
+    Reproduction->Mitose;
+    Reproduction->Spore;
+
+    Autres->Toxines;
+    Autres->"Resistance Toxines";
+    Autres->"Resistance Froid";
+    Autres->"Resistance Chaud";
+    Autres->Pheromones;
+    Autres->Symbiosis;
+    Autres->"Anti-Symbiosis";
+  }
+
+  subgraph cluster_level2 {
+    label="Level 2";
+    Deplacement->Aille;
+    Deplacement->Jambe;
+    Deplacement->Nageoire;
+
+    Systeme->"Systeme Digestif"->Carnivore;
+    "Systeme Digestif"->Herbivore;
+    Systeme->"Systeme Respiratoire"->Branchie;
+    Systeme->"Systeme nerveux"->Cerveau;
+    Systeme->Ouie;
+    Systeme->Vision;
+    Systeme->"Perception E-M";
+    Systeme->Sonar;
+
+    autres2[label="Autres"];
+    autres2->Croc;
+    autres2->Cornes;
+    autres2->Griffes;
+    autres2->Communication;
+  }
+
+  subgraph cluster_level3 {
+  comm[label="Communication"];
+  comm->Verbale;
+  comm->Gestuelle;
+  comm->Danse;
+  comm->telepathie;
+  comm->pheromones;
+  }
+}
