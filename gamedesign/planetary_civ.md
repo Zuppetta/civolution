@@ -1,0 +1,59 @@
+# Planetary Civilization
+high school only possible if enough school are built?
+
+Tech
+----
+
+- systeme educatif
+- economie
+- diplomatie
+- machine a vapeur / charbon
+- informatique
+- moteur a explosion
+- travail du fer
+- nucleaire
+- voile / voiture d'eau
+- aide sociale
+- armee de milice
+- religion centralisee
+- robotisation
+- colonization
+- universite
+- philosophie
+- nanorobotique
+- dictature
+- democratie
+- ecologie
+- aristocratie
+- inquisition
+- segregation
+- monotheisme
+- espionnage
+- physique
+- ville aquatique / terrestre
+- math
+- balistique
+- livre
+- commerce
+- electricite
+- explosif (poudre a canon)
+- capitalisme
+- communisme
+- fusee
+- exploration spatiale
+- energie solaire
+- calendrier
+- theatre
+- tourisme
+- chemin de fer
+- pionner agrandissant les frontieres
+- collaboration scientifique
+- socialisme
+- monarchie
+- esclavagisme
+- missionaire
+- religion d'etat
+- mur / beton
+- polytheisme
+- aviation
+- sous-marin

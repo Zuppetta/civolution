@@ -1,4 +1,4 @@
-# Civolution
+# Civolution: A victory from the past
 Turn based strategy video game based on evolution.
 The player will go through different eras (unorganised creatures, tribe, planetary and galactic civilizations).
 Different approaches are possible in order to win (war, diplomaty, economy, extansion, technology, religion, tourism, ...) and this choice will affects the capacities of your civilization. The game does not allow alliance from the start, but will allows them during the game and will allows player to win together.

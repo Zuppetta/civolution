@@ -22,3 +22,7 @@ The other players should be able to destroy symbiosis.
 The symbiosis gameplay should allows different methods (e.g. everyone build whatever they want or they vote).
 Symbiosis can be done with more than 1 civ.
 New conditions of victory at early stages and allows player to choose which eras they play.
+
+Military units are grouped in armies and the main cost of military comes from the number of armies
+Units need water in order to survive in desert.
+To discover a new ressource, a scientist (unit) need to find it.
