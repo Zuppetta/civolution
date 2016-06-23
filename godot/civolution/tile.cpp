@@ -16,7 +16,7 @@ Tile::Tile(TileType _type, int _pos1, int _pos2)
 
 //Public functions
 
-int[3] GetRessources(Player *pOwner) {
+int[3] Tile::GetRessources(Player *pOwner) {
 	
 	switch (type)
 	{
@@ -24,7 +24,7 @@ int[3] GetRessources(Player *pOwner) {
 	}
 }
 
-void ChangeWeather(WeatherConditions wt) {
+void Tile::ChangeWeather(WeatherConditions wt) {
 	
 	local_weather = wt;
 }
@@ -36,7 +36,4 @@ void ChangeWeather(WeatherConditions wt) {
 	}
 }*/
 
-int[2] WhereAmI() {
-	
-	return {pos1, pos2};
-}
+
