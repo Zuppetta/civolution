@@ -19,9 +19,12 @@ civolution.o: civolution.cpp
 unit.o:	unit.hpp unit.cpp
 	$(CC) $(UNITS) $(CFLAGS) unit.cpp
 
+civolution: $(OBJS)
+	$(CC) $(LFLAGS) $(OBJS) -o civolution
+
 all: $(OBJS)
 	make check_style
-	$(CC) $(LFLAGS) $(OBJS) -o civolution
+	make civolution
 
 check_style:
 	cpplint --recursive --extensions=hpp,cpp --linelength=78 \

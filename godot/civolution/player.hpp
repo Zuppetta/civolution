@@ -8,7 +8,7 @@
 
 class Player {
  public:
-  void Print();
+  void PrintTerminal();
 
  private:
   std::vector<Army*> aArmies;

@@ -11,7 +11,7 @@ class Army {
  public:
   void TakeDamage(int damage);
   void MoveTo(int pos1, int pos2);
-  void Print() const;
+  void PrintTerminal() const;
   bool IsDead() const;
   int RangedAttack() const;
   int MeleeAttack() const;

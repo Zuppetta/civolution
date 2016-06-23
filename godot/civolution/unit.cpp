@@ -47,7 +47,7 @@ bool Unit::IsDead() const {
 
 
 // Print -----------------------------------------------------------------
-void Unit::Print() const {
+void Unit::PrintTerminal() const {
   std::cout << "Unit Name: " << this->GetName() << std::endl;
   std::cout << "Health Point: " << this->GetCurrentHp() << "/" <<
     this->GetMaxHp() << std::endl;

@@ -56,7 +56,7 @@ class Unit {
   void TakeDamage(float damage);
   // print
   /*! Print the unit in the terminal */
-  virtual void Print() const;
+  virtual void PrintTerminal() const;
 
  private:
   /*! Mean value for the error function in "TakeDamage" */

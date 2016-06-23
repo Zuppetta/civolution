@@ -10,14 +10,14 @@ class Settler: public Unit {
  public:
   /*! Default constructor */
   Settler(): Unit(GetMaxHp()) {}
-  virtual int GetMaxHp() const;
-  virtual std::string GetName() const;
-  virtual int GetProductionCost() const;
-  virtual std::vector<SpecialAbility> GetSpecialAbilities() const;
-  virtual int GetAttack() const;
-  virtual int GetRange() const;
-  virtual int GetDefense() const;
-  virtual int GetDisplacement() const;
+  int GetMaxHp() const;
+  std::string GetName() const;
+  int GetProductionCost() const;
+  std::vector<SpecialAbility> GetSpecialAbilities() const;
+  int GetAttack() const;
+  int GetRange() const;
+  int GetDefense() const;
+  int GetDisplacement() const;
 };
 
 #endif   //  UNITS_SETTLER_HPP_

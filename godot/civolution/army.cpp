@@ -10,6 +10,7 @@ Compute the average damage received by each unit, then randomize each one of
 them by taking an uniform distribution that will result in a damage value
 between 50% and 150% of the average value.
 \todo use a gaussian?
+\todo split damage between each unit in order to distribute them
 */
 void Army::TakeDamage(int damage) {
   // compute the average damage
@@ -49,7 +50,7 @@ void Army::MoveTo(int pos1, int pos2) {
 
 /*! Print the army in the terminal
 */
-void Army::Print() const {
+void Army::PrintTerminal() const {
   std::cout << "This army has:" << std::endl;
   std::cout << "HP: " << this->aCurrentHp << "/" << this->aMaxHp << std::endl;
   std::cout << "Defense: " << this->aDefense << std::endl;
@@ -69,7 +70,7 @@ void Army::Print() const {
             << std::endl;
   for (unsigned int i(0); i < this->aUnits.size(); i++) {
     std::cout << "------" << std::endl;
-    this->aUnits[i]->Print();
+    this->aUnits[i]->PrintTerminal();
   }
 }
 
@@ -121,6 +122,8 @@ void Army::AddUnit(Unit *pNewUnit) {
 
 /*! Update the values of the army.
 \todo call it less often
+\todo range and ranged damage should depends on distance
+\todo special abilities stronger if more units with it?
  */
 void Army::UpdateAttribute() {
   // set all the values to 0
