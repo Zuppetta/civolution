@@ -26,3 +26,9 @@ New conditions of victory at early stages and allows player to choose which eras
 Military units are grouped in armies and the main cost of military comes from the number of armies
 Units need water in order to survive in desert.
 To discover a new ressource, a scientist (unit) need to find it.
+
+Sea Tide?
+Natural disaster?
+weather? => height
+Temperature depends on latitude
+Season?

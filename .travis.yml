@@ -1,0 +1,5 @@
+language: c++
+install: "pip install --user cpplint"
+script:
+  - make -C ./godot/civolution all
+  - ./godot/civolution/civolution
